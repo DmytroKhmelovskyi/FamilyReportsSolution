@@ -16,5 +16,17 @@ namespace FamilyReports
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           reportViewer reportViewer = new reportViewer();
+            reportViewer.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ReportViewerSearch reportViewer = new ReportViewerSearch();
+            reportViewer.Show();
+        }
     }
 }
